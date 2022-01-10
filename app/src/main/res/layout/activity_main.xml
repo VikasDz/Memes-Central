@@ -4,21 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/outbutton"
-        android:layout_width="53dp"
-        android:background="@color/purple_500"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/deleteNoticeRecycler"
+        android:layout_width="418dp"
+        android:layout_height="753dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@drawable/logout" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="@+id/deleteNoticeRecycler"
+        app:layout_constraintEnd_toEndOf="@+id/deleteNoticeRecycler"
+        app:layout_constraintStart_toStartOf="@+id/deleteNoticeRecycler"
+        app:layout_constraintTop_toTopOf="@+id/deleteNoticeRecycler" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_500">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_menu_24"/>
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="monospace"
+            android:gravity="start|center"
+            android:layout_toEndOf="@+id/menu"
+            android:text="Meme Central"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/outbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="#FFF176"
+            android:fontFamily="monospace"
+            android:shadowRadius="@integer/material_motion_duration_long_1"
+            android:text="LogOut"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
