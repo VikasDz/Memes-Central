@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
+            android:layout_marginEnd="6dp"
             android:background="#FFF176"
             android:fontFamily="monospace"
             android:shadowRadius="@integer/material_motion_duration_long_1"

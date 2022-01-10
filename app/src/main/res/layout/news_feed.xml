@@ -100,9 +100,49 @@
             android:layout_height="300sp"
             android:scaleType="fitXY">
         </ImageView>
-        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="522"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/outline_favorite_black_24dp">
+            </ImageButton>
+            <ImageView
+                android:layout_width="59dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="200dp"
+                android:background="@color/white"
+                android:src="@drawable/outline_visibility_black_24dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1K"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
+
+
+
+
+
+
 
 
 </com.google.android.material.card.MaterialCardView>
