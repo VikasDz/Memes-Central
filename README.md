@@ -1,6 +1,7 @@
 # Memes-Central
 #A Android App in Java Lang.
-*In This App User Can See Daily Memes and Enjoy There Day..✌😉
+In This App User Can See Daily Memes and Enjoy There Day..✌😉 Here We Used Firebased Concept Where In This App All Data Fetch From the Firebase RealTime Database...
+
 
 
 ScreenShots
@@ -8,8 +9,8 @@ ScreenShots
 
   1st Section              |  2nd Section
 :-------------------------:|:-------------------------:
-<img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/147370006-12e6e0a4-31cb-4f50-b3d4-5b38ddfe27e3.png">  |  <img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/147370056-9bf95a6e-4779-463b-aa51-3a81edc7093f.png">
+<img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/149365817-3770634e-543f-4d4c-8544-e0ed5d00b073.jpeg">  |  <img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/149365922-796d6b51-e75a-4bc6-b27c-d439e4abcf8d.jpeg">
   3rd Section              |  4th  Section     
-<img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/147369993-83c868c6-267b-4185-8bfc-a4c1bcb3bdf2.png">  |  <img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/147369995-84e9e056-3fd5-4294-892c-ab5872eadf0c.png">
+<img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/149365980-e0ab78f7-6d70-4895-a2d9-823d0d5e6531.jpeg">  |  <img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/149366046-94490fdf-96b3-4c8f-9c09-e559041f8eed.jpeg">
   5th Section              |
-<img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/147369999-01a5880b-d5be-47d2-b6c8-75a62b6a5114.png">  |
+<img style="width:300px;" hspace="20" src="https://user-images.githubusercontent.com/30976812/149366117-9879b769-b8d3-43e1-8cf3-a2fde659d93a.jpeg">  |
