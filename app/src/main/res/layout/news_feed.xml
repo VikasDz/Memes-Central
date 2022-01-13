@@ -78,8 +78,6 @@
                         android:fontFamily="monospace"
                         android:textSize="15dp"
                         android:textColor="@color/black"/>
-
-
                 </LinearLayout>
             </LinearLayout>
 
@@ -120,14 +118,16 @@
                 android:layout_height="match_parent"
                 android:background="@color/white"
                 android:src="@drawable/outline_favorite_black_24dp"
-                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+            </ImageButton>
 
             <ImageView
                 android:layout_width="56dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="200dp"
                 android:background="@color/white"
-                android:src="@drawable/outline_visibility_black_24dp"></ImageView>
+                android:src="@drawable/outline_visibility_black_24dp">
+            </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
