@@ -1,8 +1,7 @@
 # Memes-Central
-#A Android App in Java Lang.
-In This App User Can See Daily Memes and Enjoy There Day..✌😉 Here We Used Firebased Concept Where In This App All Data Fetch From the Firebase RealTime Database...
-
-
+Android app where user can see memes. & laugh ;)
+We used firebase concept where in this app all data fetch from the firebase database.
+In this app we build a proper phone number login authentication using firebase
 
 ScreenShots
 
